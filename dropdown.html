@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
+}
+
+</style>
+
+
+
+<body>
+   <div class="dropdown">
+      <button id="dropdownButton" class="dropbtn">Dropdown</button>
+      <div id="dropdownContent" class="dropdown-content">
+        <a href="#" data-path="movie_title">Movie Title</a>
+        <!-- Add more options here -->
+      </div>
+    </div>
+    <form:input id="textInput" path="" class="box" placeholder="Enter value" />
+    
+    <script>
+      const dropdownButton = document.getElementById('dropdownButton');
+      const dropdownContent = document.getElementById('dropdownContent');
+      const textInput = document.getElementById('textInput');
+    
+      dropdownButton.addEventListener('click', function() {
+        dropdownContent.classList.toggle('show');
+      });
+    
+      dropdownContent.addEventListener('click', function(e) {
+        if (e.target.tagName === 'A') {
+          const selectedOption = e.target.getAttribute('data-path');
+          textInput.setAttribute('path', selectedOption);
+          dropdownContent.classList.remove('show');
+        }
+      });
+    </script>
+    
+</body>
+</html>

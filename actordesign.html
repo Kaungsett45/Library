@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+<title>Home</title>
+<link href="design.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  
+</head>
+
+<body>
+
+	
+	    <header>    
+        <div id="nav">
+              <a href="Home"> <h2>Rublat</h2> </a>
+          
+    	<div class="container">
+      <div class="search-bar">
+         <div id="select">
+            <p id="selectText">Options</p>
+            <i class="fa-solid fa-angle-down"></i>
+            <ul id="list">
+               <li  class="options"><a id="nthsr" href="moviesearch">Movie</a></li>
+               <li  class="options"><a id="nthsr" href="moviesearch">Actor</a></li>
+               <li class="options"><a  id="nthsr" href="actresssearch">Actress</a></li>
+               <li class="options"><a  id="nthsr" href="directorsearch">Director</a></li>
+            </ul>
+         </div>
+       			 <form:form action="search" class="formsearch" modelAttribute="search">
+               		<form:input path="movie_title"  name="movie_title" type="text" placeholder="choose options"  class="search" />
+               		 	</form:form>  </div>
+   </div>
+      				
+               <a href="movie" class="rghnav" id="navitit"><span>Movies</span></a>
+               <a href="Fantasy" id="navitit"><span>Category</span></a>
+               <a href="Awardsandothers" id="navitit"><span>Awards & Others</span></a>
+               <a href="Aboutus" id="navitit"><span>About Us</span></a>
+              
+                    </div>
+     
+    </header>
+       <div id="footer">
+         <a href="Logout" class="btn" >Log Out</a>
+   
+     </div>
+
+     <!--body about actor-->
+        <div id="leftcontainerdesign">
+
+            <div class="castcontainer">
+                <img src="../image/4.jpg">
+            </div>
+
+            <div id="castabout">
+                <p class="name">Aung Kaung Sett</p>
+                <p class="birth">Birth :: March 17 2003(20 years)</p>
+
+                <p class="abtitle">About</p>
+                <p class="cabout">
+                    Madagascar 3: Europe's Most Wanted is a 2012 American computer-animated circus comedy film produced by DreamWorks Animation and PDI/DreamWorks and distributed by Paramount Pictures. The film is the third installment of the Madagascar franchise, the sequel to Madagascar: Escape 2 Africa (2008), and was the first film in the series to be released in 3D. It was directed by Eric Darnell, Conrad Vernon, and Tom McGrath from a screenplay by Darnell and Noah Baumbach, and features Ben Stiller, Chris Rock, David Schwimmer, Jada Pinkett Smith, Sacha Baron Cohen, Cedric the Entertainer, Andy Richter, McGrath, Chris Miller, Christopher Knights, and Vernon reprising their voice acting roles from the previous installments, alongside new cast members Jessica Chastain, Bryan Cranston, Martin Short, and Frances McDormand. In the film, the main characters—a party of animals from the Central Park Zoo whose adventures have already taken them to Madagascar and Africa—attempt to return to New York City, and find themselves traveling across Europe with a circus while being chased by a relentless French Animal Control officer.
+
+The sequel was announced in August 2008, three months before the release of the second film. The amount of animation and visual effects were done at DreamWorks Dedicated Unit, an India-based unit at Technicolor. As with other films in the franchise, Madagascar 3: Europe's Most Wanted features several songs from most artists, with musical score being composed by Hans Zimmer.
+                </p>
+            </div>
+        </div>
+           
+<div class="anther">
+       
+    <div id="imgcontainershow">
+        <a href="eachmovieui.html" id="imgposter"><img src="../image/4.jpg">  </a>
+            
+            <button class="watchlist">add to Watchlist</button>
+        </div>
+
+    
+           
+          
+
+
+      
+      	
+  
+	 <script>
+	   let select= document.getElementById("select");
+	      let list=document.getElementById("list");
+	      let selecttext=document.getElementById("selectText");
+	      let options=document.getElementsByClassName("options");
+	      let inputField=document.getElementById("inputfield");
+	     
+	         select.onclick=function(){
+	         list.classList.toggle("open");
+	      }
+
+	    
+</script>
+   
+	
+</body>
+</html>
