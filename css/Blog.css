@@ -1,0 +1,182 @@
+#imgsocial{
+        float: left;
+        width:600px;
+        height: 520px;
+       
+        background-color: #F7EFE5;
+}
+#imgsocial #socilimg img{
+        width:100%;
+        height: 100%;
+}
+#imgsocial #socilimg{
+    padding-left: 40px;
+    padding-right:40px;
+    width: 520px;
+    height: 300px;
+}
+
+#bookpost h4{
+     margin-left: 640px;
+}
+#bookpost h3{
+    margin-left: 640px;
+}
+
+#bookpost .left{
+    font-size: 14px;
+   margin-left: 40px;
+}
+#bookpost hr{
+    margin-left: 640px;
+    background-color: black;
+    height: 1px;
+}
+#bookpost .herline{
+    background-color: rgb(120, 112, 112);
+    margin-left: 640px;
+   
+}
+#bookpost .right{
+    justify-content: right;
+    text-align: right;
+}
+
+.steptocreate{
+    clear:both;
+    margin-top: 40px;
+}
+.steptocreate #imgsizing{
+    width: 275px;
+     margin-right:20px;
+    float: left;
+}
+.steptocreate #imgsizing img{
+    width: 100%;
+    height: 100%;
+}
+
+#marketing{
+        margin-top: 480px;
+}
+#marketing #marked{
+    margin-left: 200px;
+    height: 200px;
+    background-color: var(--bg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius:150px  0px 0px 0px;
+    border: 8px solid #ECE8DD;
+
+}
+#marketing #marked h3 {
+        padding-left:440px;
+    
+}
+#marketing #marked .okokok{
+    padding-left:440px;
+}
+
+.btndesign{
+    cursor: pointer;
+       margin-left: 440px;
+       border: solid black 2.5px;
+       width: 200px;
+       text-align: center;
+       padding:6px;
+        
+}
+a{
+    text-decoration: none;
+}
+.btndesign:hover{
+    cursor: pointer;
+    color:white;
+    background-color: black;
+}
+
+#marketing #marked img{
+        float: left;
+        
+        padding-left: 100px;
+        width: 320px;
+
+}
+
+#subscribed{
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+}
+#subscribed i{
+    
+    margin-top: 10px;
+    padding-left: 45px;
+    font-size: 40px;
+}
+#subscribed p{
+    font-size: 16px;
+}
+#subscribed i:hover{
+  
+    cursor: pointer;
+}
+/*VideoLink*/
+
+
+.redesign{
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-style:italic;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border:1px solid none;
+    background-color:#BBBFCA;
+    width: 100%;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.video{
+    display:flex;
+}
+.videopage{
+    border:2px solid black;
+    width:400px;
+    padding:3px;
+    margin:4.5px;
+    position:center;
+
+}
+.caption{
+    font-size: 18px;
+    font-family: Time New Roman;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px ghostwhite;
+}
+.back{
+    font-size: 20px;
+    font-family: poppins;
+    text-align: center;
+    width:120px;
+    height:35px;
+    border:2px solid black;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.back:hover{
+    color:white;
+    background-color:black;
+/*    cursor:pointer;*/
+
+
+}
+

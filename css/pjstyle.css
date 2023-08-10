@@ -1,0 +1,338 @@
+
+/*BBBFCA*/
+:root{
+    --bg:#BBBFCF;
+    --bdc:#3A4F7A;
+    --bgef:#f8f8f8f8;
+}
+*{
+    color:black;
+ 
+}
+
+body{
+    margin-top:-8px;
+    font-family: poppins;
+   
+    margin-left:100px;
+    margin-right:100px;
+    background-color: var(--bg);
+}
+
+.nav2{
+    display: inline-block;
+    font-size:22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+.nav3{
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.nav .hea h1{
+    display: inline-block;
+    margin-right: 70px;
+    cursor: pointer;
+    
+}
+header .nav .hea{
+    text-decoration: none;
+    padding:10px;
+    cursor: pointer;
+}
+
+.Search2{
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 60px;
+    width:230px;
+    height: 34px;
+    border-radius: 0px;
+    border:none;
+}
+.btn {
+    cursor: pointer;
+    font-size: 18px;
+    height: 20px;
+    margin-left: -40px;
+    border:none;
+    background-color: white;
+  
+}
+.btn2{
+    margin-left: 16px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    height: 36px;
+    border-color:solid black;
+    border-width: 2.5px;
+    background-color: var(--bg);
+}
+.btn7{
+    margin-left: 1px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    height: 36px;
+    border-color:solid black;
+    border-width: 2.5px;
+    background-color: var(--bg);
+}
+.btn2 a{
+    text-decoration: none;
+}
+.btn2 a:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+.btn2:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+.btn7 a{
+    text-decoration: none;
+}
+.btn7 a:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+.btn7:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/*login form*/
+.login-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+    top:0;
+    right: 0;
+   
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.login-form-container form{
+    
+   
+    border: .1px solid rgba(0,0,0,.1);
+    width:400px;
+    padding: 20px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin: 1rem;
+}
+.login-form-container form h3{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    color:black;
+}
+.login-form-container form span{
+    display:block;
+    font-size:22px;
+    padding-top: 0.1rem;
+}
+.login-form-container form .box{
+    margin:.5rem 0;
+    width: 90%;
+    font-size: 16px;
+    border:  .1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    padding: .7rem 1.2rem ;
+    color:black;
+    text-transform: none;
+}
+
+.btn3{
+    padding: 10px;
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: .5rem;
+    color:#fff;
+    font-size: 18px;
+    background-color: black;
+    cursor: pointer;
+}
+.login-form-container form .btn3{
+    text-align: center;
+    width: 100%;
+    
+}
+.login-form-container form p{
+    padding-top: .8rem;
+}
+
+.login-form-container #close-login-btn{
+    position: absolute;
+    top:1.5rem;
+    right: 7.5rem;
+    font-size: 2rem;
+    color:black;
+    cursor: pointer;
+}
+
+/*img cover*/
+.imgcover .cv{
+    width: 1196px;
+    height: 280px;
+
+}
+.imgcover{
+   width: 100%;
+   
+}
+.imgcover .cv img{
+    width: 100%;
+    height: 100%;
+}
+ 
+
+.home{
+    margin-top: -2px;
+    background: url(image/banner-bg.jpg) no-repeat ;
+    background-size: cover;
+    background-size: 100% 300px; 
+    background-position: center;
+}
+
+
+.home .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.home .row .content{
+   margin-top: -140px;
+   
+}
+
+.home .row .books-slider{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.home .row .books-slider .stand{
+    width:70%;
+    margin-top: -1rem;
+}
+
+.home .row .content h3{
+    color:black;
+   
+}
+.home .row .content a{
+    background-color: transparent;
+    margin-left: 1px;
+    padding:6px;
+    text-decoration: none;
+    color:black;
+    border: black solid;
+}
+
+.home .row .content a:hover{
+    color:white;
+    background-color: black;
+}
+.home .row .content p{
+    letter-spacing: 1px;
+    color:black;
+    font-size: 1.3rem;
+  font-weight: 600;
+    
+}
+img{
+    width:180px;
+    height: 190px;
+}
+.books-slider .swiper-wrapper a img{
+    margin-right: 6px;
+    width: 140px;
+    height: 190px;
+}
+.books-slider  img{
+    width:450px;
+    height: 120px;
+}
+
+
+.hyph{
+  float: left;
+}
+mark{
+    background-color: transparent;
+    color:rgb(47, 0, 255);
+}
+
+
+#home .row .content a{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+/* Trenging css code*/
+#Swippping h3{
+     margin-top: -20px;
+}
+#imgcontainingbox{
+    width: 320px;
+    display: flex;
+    
+}
+#imgcontainingbox p{
+    margin-right: 8px;
+    text-align: justify;
+}
+.trending{
+    border-radius: 20px;
+    padding: 2px;
+    margin-right: 3px;
+}
+
+#Trendingcontainer{
+    text-decoration: none;
+}
+
+#Swippping  #Wrapppingsdf{
+    overflow-x:auto;
+    display: flex;
+   
+}
+#Swippping #Wrapppingsdf #itemshow{
+    margin-left: 30px;
+    border:2.5px solid rgb(164, 162, 162);
+    border-radius: 20px;
+   
+}
+#Swippping #Wrapppingsdf #itemshow a{
+    text-decoration: none;
+}
+#Swippping #Wrapppingsdf #itemshow:hover{
+    border:2.5px solid black;
+     border-radius: 20px;
+     cursor: pointer;
+ }
+#Wrapppingsdf #itemshow{
+    text-align: left;
+}
+#Wrapppingsdf::-webkit-scrollbar{
+    width:0;
+}

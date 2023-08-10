@@ -1,0 +1,93 @@
+.imge img{
+    width: 180px;
+    height: 250px;
+}
+.imge{
+    float: left;
+    width: 190px;
+    height: 240px;
+}
+span i{
+    font-size: 18px;
+    color:#000000;
+    margin-left: 12px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#sample{
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: 400;
+    padding-left:34px ;
+    padding-right: 34px;
+    height: 36px;
+    border-color:solid black;
+    border-width: 2.2px;
+    background-color: var(--bg);
+}
+#sample:hover{
+    color:white;
+    background-color: black;
+}
+
+.detailcontent{
+   float: left;
+   margin-left: 50px;
+
+}
+#star{
+    margin-left:30px;
+}
+#title{
+     font-size:24px;
+     font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Style buttons */
+
+  #downbtn{
+    margin-top: 20px;
+    
+    background-color: var(--bg); /* Blue background */
+    border: 2.5px solid black; /* Remove borders */
+    color: rgb(0, 0, 0); /* White text */
+    font-weight: 400;
+    padding-left:34px ;
+    padding-right: 34px;
+    height: 36px;
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  #downbtn:hover{
+        color: white;
+        background-color: black;
+  }
+#aboutbbk{
+    
+    width:200px;
+    clear: both;
+    float: left;
+}
+#aboutbbk hr{
+    height: 1px;
+    background-color: black;
+}
+
+#downic{
+    width: 800px;
+}
+#downic p{
+    text-align: justify;
+}
+
+#Swippping{
+    float: left;
+    margin-left: 40px;
+    width: 800px;
+    margin-top: 120px;
+}
+
